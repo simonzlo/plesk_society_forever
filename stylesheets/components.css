@@ -1,0 +1,263 @@
+/* Sidebar start */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(160px - 32px);
+  height: 100vh;
+  padding-top: 32px;
+  padding-left: 32px;
+  z-index: 100;
+}
+
+.sidebar > * {
+  margin-bottom: 30px;
+}
+
+.sidebar .menu .h4 {
+  margin-bottom: 12px;
+}
+
+.about_gradient,
+.container_main_page nav .about:hover {
+  background: linear-gradient(180deg, #FDA8A8 0%, #004135 100%);
+}
+
+.projects_gradient,
+.bookmark,
+.container_main_page nav .projects:hover {
+  background: linear-gradient(180deg, #4894BF 0%, #724444 80.21%);
+}
+
+.events_gradient,
+.container_main_page nav .events:hover {
+  background: linear-gradient(180deg, #70BDCE 0%, #B8B5B6 100%);
+}
+
+.join_us_gradient,
+.container_main_page nav .join_us:hover {
+  background: linear-gradient(180deg, #4D72A9 0%, #A86695 100%);
+}
+
+.shop_gradient,
+.container_main_page nav .shop:hover, .cloths img:hover,
+.txt_a:hover, .txt_b:hover, .txt_c:hover, .txt_d:hover {
+ background: linear-gradient(180deg, #115383 0%, #FFAB7C 100%);
+}
+
+/* Sidebar end */
+
+/* FOOTER START */
+footer {
+  position: relative;
+  margin-top: 242px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  bottom: 0;
+}
+
+footer .small_logo {
+  position: absolute;
+  right: -32px;
+  margin-top: 3px;
+}
+
+footer h4 {
+  margin-right: 36px;
+}
+
+/* FOOTER END */
+
+/* CONTACTS */
+.contacts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contacts p {
+  margin-bottom: calc(69px - 52px);
+}
+
+.contacts .contact {
+  margin-right: 86px;
+  margin-top: 52px;
+}
+
+.contacts a {
+  margin-right: 12px;
+}
+
+.contacts a:hover {
+  color: white;
+}
+
+/* CONTACTS END */
+
+/* STRIPER START ДЛЯ ЗДАНИЙ */
+
+.stripes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.stripes img {
+  width: 272px;
+  margin-bottom: 16px;
+}
+
+.stripes a:hover {
+ color: linear-gradient(180deg, #115383 0%, #FFAB7C 100%);
+ cursor: pointer;
+ /* background-repeat: no-repeat; */
+ /* РАЗМЕР ФОНОВОЙ ПЛАШКИ */
+  background-size: 100% 100px;
+  background-position: 0px 50%;
+}
+
+
+/* STRIPER END */
+
+/* MACBOOK START */
+
+.macbook {
+  position: relative;
+  background-image: url("../images/macbook.png");
+  width: inherit;
+  min-height: 643px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+video:first-child {
+  margin-left: 8px;
+}
+
+/* EVENTS */
+
+.event { margin-bottom: 96px; }
+.event .event_header { margin-bottom: 16px; }
+
+/* + ARTICLES */
+.event_header,
+.article_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.event_header h4 span {
+  padding-left: 28px;
+}
+
+/* ARTICLES — Статьи */
+
+.article_header img { width: 928px; }
+
+/* BOOK */
+.book {
+  position: relative;
+  width: 5506px;
+  margin-right: 112px;
+}
+
+.bookmark {
+  position: fixed;
+  top: 0;
+  left: 256px;
+  width: 16px;
+  height: 100vh;
+}
+
+/* CLOTHS */
+
+.cloths img {
+  width: 360px;
+  height: 400px;
+  -o-object-fit: none;
+  object-fit: none;
+}
+
+.cloths img:hover {
+  cursor: pointer;
+  background-repeat: no-repeat;
+  /* РАЗМЕР ФОНОВОЙ ПЛАШКИ */
+  background-size: 100% 100px;
+  background-position: 0px 50%;
+}
+
+
+/* JOIN US */
+
+.anketa {
+  margin-top: 56px;
+  margin-bottom: 12px;
+}
+
+p.anketa {
+  margin-top: 44px;
+}
+
+.anketa input,
+.anketa select {
+  display: inline-block;
+  box-sizing: border-box;
+  padding-top: 16px;
+  background-color: transparent;
+  border-radius: 0;
+  border: 0;
+  color: white;
+}
+
+.horizontal {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.anketa select {
+  margin-right: 36px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.container > p.anketa {
+  align-self: center;
+}
+
+/* PRODUCT */
+
+.product {
+  height: 416px;
+  margin-bottom: 128px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product_img {
+  width: 416px;
+  height: 416px;
+  margin-right: 44px;
+  /* background-image: url(../images/product_img.png); */
+  background-repeat: no-repeat;
+}
+
+.product_txt {
+  width: 752px;
+  height: 416px;
+}
+
+.buy { height: 276px; }
+.buy > * { display: inline-block; }
+
+.txt_a { margin-right: 88px; }
+.txt_b, .items { margin-right: 20px; }
+.txt_c { margin-right: 15px; }
+
+.txt_a:hover, .txt_b:hover, .txt_c:hover, .txt_d:hover {
+  padding-top: 6px;
+  margin-top: -6px;
+  cursor: pointer;
+  height: 276px;
+}

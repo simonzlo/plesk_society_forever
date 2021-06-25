@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Arimo-Bold";
+  src: url("../fonts/Arimo/Arimo-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Arimo-Regular";
+  src: url("../fonts/Arimo/Arimo-Regular.ttf") format("truetype");
+}
+
+/* BASE FONTS  */
+a, a:visited {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+h4, .h4, a.h4 {
+  font-family: "Arimo-Bold";
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+p, .p, a {
+  font-family: "Arimo-Regular";
+  font-size: 44px;
+  line-height: 54px;
+  text-decoration: none;
+  color: white;
+}
+
+.article_header a.p,
+.sidebar .menu .h4 {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.article_header .p:hover {
+  color: white;
+  background: linear-gradient(180deg, #70BDCE 0%, #B8B5B6 100%);
+}
+
+p {
+  padding-bottom: 44px
+}
+
+/* SIDEBAR FONTS  */
+
+.sidebar .menu .active {
+  color: #FFFFFF;
+  text-decoration: none;
+}

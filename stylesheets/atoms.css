@@ -1,0 +1,35 @@
+
+/* LOGO */
+.big_logo {
+  width: 95px;
+  height: 52px;
+  background-image:
+  url(../images/big_logo.svg);
+  margin-bottom: 30px;
+}
+
+.small_logo {
+  width: 43px;
+  height: 24px;
+  background-image: url(../images/small_logo.svg);
+}
+
+/* IMAGES */
+
+.graphic { margin-bottom: 32px; }
+
+/* VIDEO */
+
+video {
+  margin-top: 20px;
+  width: 41%;
+  height: 68vh;
+  position: inherit;
+  -o-object-fit: cover;
+     object-fit: cover;
+     border-radius: 0 4px 4px 0;
+}
+
+video:first-child {
+  border-radius: 4px 0 0 4px;
+}

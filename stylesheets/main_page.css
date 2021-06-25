@@ -1,0 +1,54 @@
+.main {
+  position: absolute;
+  top: 8px;
+
+  width: 100vw;
+  height: 99vh;
+  background-image: url("../images/main.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: 200;
+}
+
+.container_main_page nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container_main_page nav a {
+  padding-top: 134px;
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - 134px);
+  z-index: 300;
+}
+
+/* SIZES FOR HOVER */
+.container_main_page nav a.about { width: 112px; }
+.container_main_page nav a.projects { width: 355px; }
+.container_main_page nav a.events { width: 74px; }
+.container_main_page nav a.join_us { width: 412px; }
+.container_main_page nav a.shop { width: 176px; }
+
+/* HOVER OPACITY */
+.container_main_page nav a:hover {
+  opacity: 0.9;
+}
+
+/* COMPANY NAME CSS */
+
+.company_name {
+  /* LOCATION */
+  position: absolute;
+  bottom: 0.4em;
+  z-index: 100;
+  /* SIZE */
+  width: 100%;
+  height: 8.3em; /* em измеряется относительно шрифта */
+  /* BACKGROUND PROPERTIES */
+  background-image: url("../images/company_name.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}

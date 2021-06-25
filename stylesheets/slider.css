@@ -1,0 +1,40 @@
+.slider {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.slider img {
+  margin: auto;
+  z-index: 9999999;
+}
+
+.slider.posters img {
+  width: 35.5vw;
+}
+
+.slider.builds img {
+  width: 68.8vw;
+}
+
+.slider_body {
+  margin: auto;
+  width: calc(35.5vw + 164px);
+  display: flex;
+  align-items: center;
+}
+
+.slider_body_builds {
+  width: calc(68.8vw + 164px);
+}
+
+.prev {
+  margin-right: 32px;
+}
+
+.next {
+  margin-left: 32px;
+}
