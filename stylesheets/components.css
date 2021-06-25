@@ -191,8 +191,13 @@ video:first-child {
 /* JOIN US */
 
 .anketa {
+  position: relative;
   margin-top: 56px;
   margin-bottom: 12px;
+}
+
+.anketa.selects .selects {
+  display: flex;
 }
 
 p.anketa {
@@ -209,6 +214,8 @@ p.anketa {
   border: 0;
   color: white;
 }
+
+input {outline:none;}
 
 .horizontal {
   display: block;

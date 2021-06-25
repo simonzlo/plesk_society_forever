@@ -6,7 +6,6 @@ window.addEventListener("load", function(event) {
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
-  console.log("DID IT TOO");
 }
 
 // Thumbnail image controls
@@ -23,9 +22,11 @@ function findParams() {
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("graphic");
-
+  console.log(slides);
   if (n === "1-1") { slideIndex = slides.length }
   if (n > slides.length) { slideIndex = 1 }
+  console.log(slideIndex);
+
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";

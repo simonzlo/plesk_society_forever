@@ -5,6 +5,7 @@
 @import "main_page.css";
 @import "colors.css";
 @import "slider.css";
+@import "select.css";
 
 body {
   width: 100%;
@@ -13,8 +14,8 @@ body {
   background-color: black;
 }
 
-a { cursor: pointer; color: black}
-a:visited { color: white }
+a { cursor: pointer; }
+a:visited { color: inherit; }
 
 .container > *,
 .sidebar > *,
@@ -27,15 +28,15 @@ a:visited { color: white }
 
 .navigation {
   height: 20px;
-  top: 33px;
-  left: 240px;
+  margin-top: 33px;
+  margin-left: 240px;
 }
 
 .navigation_slider {
   position: absolute;
   height: 20px;
-  top: 33px;
-  left: 80px;
+  margin-top: 33px;
+  margin-left: 80px;
 }
 
 .nav1, .nav2 {

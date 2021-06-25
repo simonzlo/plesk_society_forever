@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="../stylesheets/base.css">
+  <script src="../scripts/packages/jquery-3.6.0.min.js"></script>
   <title></title>
 </head>
 
@@ -37,10 +38,10 @@
   <!-- container -->
   <div class="container">
     <div class="macbook">
-      <video autoplay muted loop>
+      <video class="video1" autoplay muted loop>
         <source src="../video/video_2.mp4" type="video/mp4">
       </video>
-      <video autoplay muted loop>
+      <video class="video2" autoplay muted loop>
         <source src="../video/video_1.mp4" type="video/mp4">
       </video>
     </div>
@@ -54,6 +55,14 @@
       <div class="small_logo"></div>
     </footer>
   </div>
+  <script type="text/javascript">
+    $('.video1').click(function(){
+        window.location = 'http://google.com';
+    });
+    $('.video2').click(function(){
+        window.location = 'http://google.com';
+    });
+  </script>
 </body>
 
 </html>

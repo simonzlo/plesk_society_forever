@@ -5,6 +5,9 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="../stylesheets/base.css">
   <title></title>
+    <script src="../scripts/select.js"></script>
+
+</head>
 
 <body>
   <!-- sidebar -->
@@ -26,20 +29,37 @@
         <input class="p" type="text" placeholder="Имя">
       </div>
 
-      <div class="anketa">
+      <div class="anketa selects">
         <h4>а вы откуда?</h4>
-        <select class="p" type="text" name="options">
-          <option disabled selected hidden>Планета</option>
-        </select>
+        <div class="selects">          
+          <div class="custom-select" style="width:200px;">
+            <select>
+              <option value="0">Планета</option>
+              <option value="1">Audi</option>
+              <option value="2">BMW</option>
+            </select>
+          </div>
 
-        <select class="p" type="text" name="options">
-          <option disabled selected hidden>Страна</option>
-        </select>
 
-        <select class="p" type="text" name="options">
-          <option disabled selected hidden>Город</option>
-        </select>
-      </div>
+          <div class="custom-select" style="width:200px;">
+            <select>
+              <option value="0">Страна</option>
+              <option value="1">Audi</option>
+              <option value="2">BMW</option>
+            </select>
+          </div>
+
+          <div class="custom-select" style="width:200px;">
+            <select>
+              <option value="0">Город</option>
+              <option value="1">Audi</option>
+              <option value="2">BMW</option>
+            </select>
+          </div>
+        </div>
+
+
+</div>
     </div>
 
     <div class="anketa">
