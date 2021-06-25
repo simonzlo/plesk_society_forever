@@ -15,7 +15,7 @@ body {
 }
 
 a { cursor: pointer; }
-a:visited { color: inherit; }
+a:visited white { color: inherit; }
 
 .container > *,
 .sidebar > *,
@@ -26,13 +26,13 @@ a:visited { color: inherit; }
   transition-timing-function: cubic-bezier(0.1, 0.8, 0.5, 2), linear;
 }
 
-.navigation {
+.white , .navigation {
   height: 20px;
   margin-top: 33px;
   margin-left: 240px;
 }
 
-.navigation_slider {
+.navigation_slider , .white {
   position: absolute;
   height: 20px;
   margin-top: 33px;
